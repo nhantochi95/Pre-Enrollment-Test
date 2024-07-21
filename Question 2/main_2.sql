@@ -1,10 +1,11 @@
--- **Question 2**
+**Question 2**
 
--- How would you structure a database schema to store address information for customers,
--- considering that the addresses of some customers may change over time? Give pros and
--- cons for each option?
+How would you structure a database schema to store address information for customers,
+considering that the addresses of some customers may change over time? Give pros and
+cons for each option?
 
--- **Answer**
+**Answer**
+
 1. Customer Address Schema
 
 CREATE TABLE customers (
