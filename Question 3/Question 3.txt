@@ -1,0 +1,37 @@
+**Question 3**
+
+You are given a JSON file named "employees.json" that contains employee data in the following format:
+
+[
+   {
+       "id": 1,
+       "name": "John Doe",
+       "department": "Marketing",
+       "salary": 50000,
+       "join_date": "2022-01-01"
+   },
+   {
+       "id": 2,
+       "name": "Jane Smith",
+       "department": "Sales",
+       "salary": 60000,
+       "join_date": "2021-05-15"
+   },
+   {
+       "id": 3,
+       "name": "Mark Johnson",
+       "department": "Finance",
+       "salary": 75000,
+       "join_date": "2023-02-28"
+   }
+]
+
+Your task is to write a Python script that performs an ETL process on the given JSON file to transform and load the data into a Microsoft SQL (or any SQL) database. Here are the details:
+
+1. Create a table named "employees" in the Microsoft SQL (or any SQL) database with the following
+columns: id (integer), name (text), department (text), salary (integer), and join_date (date).
+2. Extract the data from the JSON file.
+3. Transform the data by converting the "join_date" string to a date format and removing any unnecessary
+fields.
+4. Load the transformed data into the "employees" table in the Microsoft SQL (or any SQL) database.
+5. Handle any necessary error handling and data validation during the ETL process.
